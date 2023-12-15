@@ -1,5 +1,6 @@
 <template>
   <SectionWrapper>
+    <hr />
     <div class="flex gap-32 justify-center">
       <BlogCard
         title="Kode24"
@@ -19,9 +20,11 @@
       <BlogCard
         title="Offline"
         description="
-        In my sparetime i illustrate and write in Offline, the journal of the student organization Online for computer sience students at NTNU.
+            In my sparetime i illustrate and write in Offline,
+            the journal of the student organization Online for computer sience students at NTNU.
         "
       />
     </div>
+    <hr />
   </SectionWrapper>
 </template>
