@@ -8,6 +8,11 @@ export default {
     "./app.vue",
   ],
   theme: {
+    colors: {
+      peach: "FAE0D1",
+      orange: "CF5917",
+      teal: "17CFCF",
+    },
     extend: {},
   },
   plugins: [],
