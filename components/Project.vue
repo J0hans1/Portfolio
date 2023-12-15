@@ -4,15 +4,15 @@
     <h2>{{ name }}</h2>
     <p>{{ description }}</p>
     <div class="flex gap-2">
-      <Tag text="{{" tag1 }} />
-      <Tag text="{{" tag2 }} />
+      <Tag v-bind:text="tag1" />
+      <Tag v-bind:text="tag2" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: {>
+  props: {
     name: {
       type: String,
       required: true,

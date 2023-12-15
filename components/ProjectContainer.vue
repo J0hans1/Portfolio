@@ -38,7 +38,7 @@
         description="A platform for renting tools."
         tag1="Agile"
         tag2="Frontend"
-      />>
+      />
       <Project
         name="Helse-sprik"
         description="An error monitoring tool for the Norwegian welfare department."
