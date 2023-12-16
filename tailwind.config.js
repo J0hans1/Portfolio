@@ -8,7 +8,16 @@ export default {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    colors: {
+      peach: "FAE0D1",
+      orange: "CF5917",
+      teal: "17CFCF",
+    },
+    extend: {
+      spacing: {
+        8: "32px",
+      },
+    },
   },
   plugins: [],
 };
