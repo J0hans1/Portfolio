@@ -1,5 +1,5 @@
 <template>
-  <header class="px-24">
+  <header class="px-12 md:px-24">
     <nav class="py-10">
       <div class="flex gap-10">
         <a>About me</a>

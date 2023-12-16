@@ -13,7 +13,11 @@ export default {
       orange: "CF5917",
       teal: "17CFCF",
     },
-    extend: {},
+    extend: {
+      spacing: {
+        8: "32px",
+      },
+    },
   },
   plugins: [],
 };

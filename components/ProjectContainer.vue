@@ -1,6 +1,6 @@
 <template>
   <SectionWrapper>
-    <div class="w-2/5 mb-2">
+    <div class="lg:w-2/5 mb-2">
       <h2>My Projects</h2>
       <p>
         Explore my diverse range of projects, where design and development
@@ -8,7 +8,9 @@
         expertise, delivering beautiful and functional solutions.
       </p>
     </div>
-    <div class="grid grid-cols-3 gap-20">
+    <div
+      class="flex flex-col gap-10 md:grid md:grid-cols-2 lg:grid-cols-3 sm:flex sm:flex-col md:gap-20"
+    >
       <Project
         name="Chimera"
         description="🦁🐉 Classless CSS framework for modern and soft styling. Inspired By SakuraCSS and Marx"

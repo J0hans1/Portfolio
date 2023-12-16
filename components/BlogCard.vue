@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/4 flex flex-col justify-between">
+  <div class="md:w-1/4 flex flex-col justify-between">
     <div>
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>

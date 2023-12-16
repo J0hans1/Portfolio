@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-bind:class="`mt-${topMargin}`">
     <div class="border h-64"></div>
     <h2>{{ name }}</h2>
     <p>{{ description }}</p>
@@ -28,6 +28,10 @@ export default {
     tag2: {
       type: String,
       required: true,
+    },
+    topMargin: {
+      type: String,
+      default: "0",
     },
   },
 };

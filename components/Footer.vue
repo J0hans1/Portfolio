@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper>
     <hr />
-    <div class="flex justify-between">
+    <div class="flex flex-col md:flex-row justify-between">
       <ul>
         <li><a>FAQ</a></li>
         <li><a>ChimeraCSS</a></li>

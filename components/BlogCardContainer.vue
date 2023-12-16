@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper>
     <hr />
-    <div class="flex gap-32 justify-center">
+    <div class="md:flex md:gap-8 lg:gap-32 justify-center">
       <BlogCard
         title="Kode24"
         description="
